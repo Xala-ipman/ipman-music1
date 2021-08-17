@@ -10,7 +10,7 @@ module.exports = {
   name: "help",
   aliases: ["h"],
   cooldown: 8,
-  description: "**Reyna Help**",
+  description: "___Vite Primum Help___",
   execute(message) {
     let commands = message.client.commands.array();
 
@@ -31,7 +31,7 @@ module.exports = {
 \`${PREFIX}remove\` - \`${PREFIX}queue\` - \`${PREFIX}filter\`
 \`${PREFIX}loop\` - \`${PREFIX}lyrics\` - \`${PREFIX}radio\`
 
-**Fun Commands**
+**Modration Commands**
 \`${PREFIX}lock\` - \`${PREFIX}unlock\` - \`${PREFIX}ban\`
 \`${PREFIX}unban\` - \`${PREFIX}slowmode\` - \`${PREFIX}giveaway\`
 
@@ -40,7 +40,7 @@ module.exports = {
 `)
 
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-   .setColor("#146DF6");
+   .setColor("#560392");
    message.react("✅")
     return message.channel.send(helpEmbed).catch(console.error);
 
