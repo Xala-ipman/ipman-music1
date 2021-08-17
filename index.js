@@ -85,8 +85,8 @@ Support Server - [Click Me](https://discord.gg/u4CbGW4qTT)
 Bot Link - [Click Me](https://discord.com/oauth2/authorize?client_id=758785943426564187&permissions=1076132928&scope=bot)
 `)
                   .setTitle(`
-Join a voice channel and \`s!play\` a song.
-Type \`s!help\` for the list of commands.`));
+Join a voice channel and \`:play\` a song.
+Type \`:help\` for the list of commands.`));
   } 
   //An embed announcement for everyone but no one knows so fine ^w^
   if(message.content.startsWith(`${prefix}embed`)){
