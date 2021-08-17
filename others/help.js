@@ -19,29 +19,31 @@ module.exports = {
     .setAuthor(`Show Bot`, `https://cdn.discordapp.com/avatars/758785943426564187/0d2e89ab452cb53f5cb7eaf14295470b.png?size=2048`)
     .setDescription(`
 
-**User Commands**
+___User Commands___
 \`${PREFIX}invite\` - \`${PREFIX}support\` - \`${PREFIX}about\`
 \`${PREFIX}ping\` - \`${PREFIX}prefix\` - \`${PREFIX}uptime\`
 \`${PREFIX}avatar\` - \`${PREFIX}se\` - \`${PREFIX}invites\`
 
-**Music Commands**
+
+___Music Commands___
 \`${PREFIX}play\` - \`${PREFIX}skip\` - \`${PREFIX}skipto\`
 \`${PREFIX}stop\` - \`${PREFIX}volume\` - \`${PREFIX}nowplaying\`
 \`${PREFIX}shuffle\` - \`${PREFIX}search\` - \`${PREFIX}resume\`
 \`${PREFIX}remove\` - \`${PREFIX}queue\` - \`${PREFIX}filter\`
 \`${PREFIX}loop\` - \`${PREFIX}lyrics\` - \`${PREFIX}radio\`
 
-**Modration Commands**
+
+___Modration Commands___
 \`${PREFIX}lock\` - \`${PREFIX}unlock\` - \`${PREFIX}ban\`
 \`${PREFIX}unban\` - \`${PREFIX}slowmode\` - \`${PREFIX}giveaway\`
 
-**Links**
-[support](https://discord.gg/Zj5SFafHKG)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=758785943426564187&permissions=1076132928&scope=bot)
+___Links___
+[support](https://discord.gg/XjFRdjuvUC)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=848190280595013672&permissions=8&scope=bot)
 `)
 
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
    .setColor("#560392");
-   message.react("✅")
+   message.react("<a:emoji_33:877324363291062312>")
     return message.channel.send(helpEmbed).catch(console.error);
 
   }
