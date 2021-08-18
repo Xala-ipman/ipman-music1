@@ -1,5 +1,5 @@
 client.on("message", message => {
-if  (message.content === ":vote") {
+if  (message.content === prefix + "vote") {
 const embed = new Discord.MessageEmbed()
 .setColor("#ffff00")
 .setImage(`https://media.discordapp.net/attachments/844858412969230376/877389521019367495/image0.gif`)
