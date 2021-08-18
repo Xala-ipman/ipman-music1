@@ -73,14 +73,14 @@
 
     //define the No args Embed, lmao
     let resultsEmbed = new Discord.MessageEmbed()
-        .setTitle(`**<:emoji_3:815583549326360635> Available Radio Stations**`)//
+        .setTitle(`__<a:emoji_41:877686236024832010> Available Radio Stations__`)//
         .addFields(
-          { name: `***<:emoji_3:815583549326360635> Standard Radio***`, value: `**1:  ** [\`${Radiostations[1-1].split(" ")[0]}\`](${Radiostations[1-1].split(" ")[1]})
+          { name: `__<a:emoji_42:877686248280571954> Standard Radio__`, value: `**1:  ** [\`${Radiostations[1-1].split(" ")[0]}\`](${Radiostations[1-1].split(" ")[1]})
           **2:  ** [\`${Radiostations[2-1].split(" ")[0]}\`](${Radiostations[2-1].split(" ")[1]})
           **3:  ** [\`${Radiostations[3-1].split(" ")[0]}\`](${Radiostations[3-1].split(" ")[1]})
           **4:  ** [\`${Radiostations[4-1].split(" ")[0]}\`](${Radiostations[4-1].split(" ")[1]})
           **5:  ** [\`${Radiostations[5-1].split(" ")[0]}\`](${Radiostations[5-1].split(" ")[1]})
-          ` , inline: true}, { name: `***<:emoji_3:815583549326360635> Standard Radio***`, value: `**6:  ** [\`${Radiostations[6-1].split(" ")[0]}\`](${Radiostations[6-1].split(" ")[1]})
+          ` , inline: true}, { name: `__<a:emoji_42:877686248280571954> Standard Radio__`, value: `**6:  ** [\`${Radiostations[6-1].split(" ")[0]}\`](${Radiostations[6-1].split(" ")[1]})
           **7:  ** [\`${Radiostations[7-1].split(" ")[0]}\`](${Radiostations[7-1].split(" ")[1]})
           **8:  ** [\`${Radiostations[8-1].split(" ")[0]}\`](${Radiostations[8-1].split(" ")[1]})
           **9:  ** [\`${Radiostations[9-1].split(" ")[0]}\`](${Radiostations[9-1].split(" ")[1]})
