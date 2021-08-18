@@ -136,10 +136,10 @@
       //if no args
       if (args[0] == null) {
         message.channel.send(    new MessageEmbed().setColor("RED")
-        .setDescription(`**<:emoji_3:815583549326360635> ${message.author} Check your \`direct messages\` for a list of Radio Stations!**`)
+        .setDescription(`__<a:emoji_43:877689301025054801> ${message.author} Check your \`direct messages\` for a list of Radio Stations!__`)
         );
         message.author.send(new MessageEmbed().setColor("RED")
-        .setDescription(`**<:emoji_3:815583549326360635> Sent from <#${message.channel.id}>**`))
+        .setDescription(`__<a:emoji_42:877686248280571954> Sent from <#${message.channel.id}>__`))
         return message.author.send(resultsEmbed);
       }
     const { channel } = message.member.voice;
@@ -180,7 +180,7 @@
   if(Number(i) === 35) {
     channel.leave();
     return message.reply(  new MessageEmbed()
-  .setColor("#146DF6")
+  .setColor("#00bde7")
   .setTitle( `Not a valid radio station please use a Number between \`1\` and \`${Radiostations.length}\``));}
   //define the Radio Args like title and url
   const args2 = Radiostations[i-1].split(` `);
