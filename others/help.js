@@ -42,8 +42,8 @@ ___Links___
 `)
 
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-   .setColor("#560392");
-   message.react("<a:emoji_33:877324363291062312>")
+   .setColor("#00bde7");
+   message.react("<a:emoji_43:877689301025054801>")
     return message.channel.send(helpEmbed).catch(console.error);
 
   }
