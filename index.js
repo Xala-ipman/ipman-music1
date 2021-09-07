@@ -124,12 +124,12 @@ client.on("guildCreate" , DarkMan => {
     .setDescription (`
     Links
 
-[Support](https://discord.gg/jcs4XwcExv)
+[Support](https://discord.gg/PkgmDJnjBN)
 -
-[Invite](https://discord.com/oauth2/authorize?client_id=806840212608909344&permissions=70346817&scope=bot)`)
+[Invite](https://discord.com/api/oauth2/authorize?client_id=848190280595013672&permissions=8&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(``)
-    .setTitle(`**Support Reyna**`) 
+    .setTitle(`**Support Rain**`) 
     .setThumbnail(`https://cdn.discordapp.com/avatars/806840212608909344/bf2d9853ffc2b48775c0cf9f8932a189.png?size=1024`)
     .setTimestamp()
     
@@ -185,7 +185,7 @@ client.on("guildCreate" , DarkMan => {
 });
 
 client.on("guildCreate", guild => {
-  let channel = client.channels.cache.get("877522985295171594");
+  let channel = client.channels.cache.get("884642516052344884");
   let embed = new MessageEmbed().setColor("#146DF6")
   .setAuthor(client.user.username, client.user.avatarURL())
   .setTitle( `✅ Join Server`)
@@ -198,7 +198,7 @@ client.on("guildCreate", guild => {
 });
 
 client.on("guildDelete", guild => {
-  let channel = client.channels.cache.get("877522579932467262");
+  let channel = client.channels.cache.get("884642659447214091");
   let embed = new MessageEmbed()
   .setColor("#146DF6")
   .setAuthor(client.user.username, client.user.avatarURL())
